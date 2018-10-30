@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace OsobaDemo
 {
@@ -24,7 +25,25 @@ namespace OsobaDemo
 
             // Delač, Drago; Erceg, Eva; Fotez, Filip; Grabar, Goran; Horvat, Hrvoje; Ivanda, Ivan; ....
 
+            int i;
 
+            Osoba o1 = new Osoba();
+            o1.Ime = "Ana";
+            o1.Prezime = "Anić";
+            o1.ispisiPrezimeIme();
+
+            Osoba s1 = new Student();
+            s1.Ime = "Drago";
+            s1.Prezime = "Delač";
+
+            List<Osoba> osobe = new List<Osoba>();
+
+            osobe.Add(o1);
+            osobe.Add(s1);
+
+
+
+            
         }
     }
 }
