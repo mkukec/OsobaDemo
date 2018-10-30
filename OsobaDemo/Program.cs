@@ -24,19 +24,6 @@ namespace OsobaDemo
 
             // Delač, Drago; Erceg, Eva; Fotez, Filip; Grabar, Goran; Horvat, Hrvoje; Ivanda, Ivan; ....
 
-            Console.WriteLine("Popis osoba:");
-            Console.WriteLine("1. {0}, {1}", prezime1, ime1);
-            Console.WriteLine("2. {0}, {1}", prezime2, ime2);
-            Console.WriteLine("3. {0}, {1}", prezime3, ime3);
-
-            /*
-             * Koliki je potencijal ovog rješenja da se jednostavno primijeni za podatke novih 10 osoba?
-             * Novih 20 osoba? Novih 100 osoba? 1000 osoba? ....
-             * Kolika je mogućnost primjene ovog rješenja uz porast količine podataka 
-             * tj. posla koji on mora odraditi? 
-             * Kolika je skalabilnost? 
-             */
-
 
         }
     }
