@@ -47,9 +47,11 @@ namespace OsobaDemo
 
             string[] imena = { "Ana", "Borna", "Cecilija" };
             string[] prezimena = { "Anić", "Bubalo", "Car" };
+
+            Console.WriteLine("Popis osoba:");
             for (int i = 0; i < imena.Length; i++)
             {
-                Console.WriteLine("Popis osoba:");
+                Console.WriteLine("{0}. {1}, {2}", i, prezimena[i], imena[i]);
             }
 
         }
