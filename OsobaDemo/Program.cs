@@ -6,7 +6,14 @@ namespace OsobaDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Dobar dan! ;-)");
+
+            /* ZADATAK
+             * Stvoriti popis osoba; programsku podršku
+             * za razne primjene gdje je potreban popis osoba
+             */
+
+
         }
     }
 }
