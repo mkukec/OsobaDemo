@@ -38,6 +38,20 @@ namespace OsobaDemo
              */
 
 
+            /*
+             * Što nije dobro?
+             * We Enjoy Typing? Write Everytinh Twice? Waste Everyone's Time? WET! 
+             * We have a WET solution.
+             * DRY -> Don't Repeat Yourself (The Pragmatic Programmer)
+             */
+
+            string[] imena = { "Ana", "Borna", "Cecilija" };
+            string[] prezimena = { "Anić", "Bubalo", "Car" };
+            for (int i = 0; i < imena.Length; i++)
+            {
+                Console.WriteLine("Popis osoba:");
+            }
+
         }
     }
 }
