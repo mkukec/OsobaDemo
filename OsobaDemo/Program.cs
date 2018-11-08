@@ -28,22 +28,18 @@ namespace OsobaDemo
             int i;
 
             Osoba o1 = new Osoba();
-            o1.Ime = "Ana";
-            o1.Prezime = "Anić";
+            o1.postaviIme("Ana");
+            o1.postaviPrezime("Anić");
             o1.ispisiPrezimeIme();
 
             Osoba s1 = new Student();
-            s1.Ime = "Drago";
-            s1.Prezime = "Delač";
+            s1.postaviIme("Drago");
+            s1.postaviPrezime("Delač");
+
 
             List<Osoba> osobe = new List<Osoba>();
-
             osobe.Add(o1);
             osobe.Add(s1);
-
-
-
-            
         }
     }
 }
