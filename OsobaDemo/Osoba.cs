@@ -7,49 +7,49 @@ namespace OsobaDemo
     class Osoba
     {
         // Sakrivanje podataka, onemogućava pristup
-        private string Ime;
-        private string Prezime;
-        private string OIB;
+        private string ime;
+        private string prezime;
+        private string oib;
 
         // Metoda za postavljanje podatka 'Ime'
         public void PostaviIme(string Ime)
         {
-            this.Ime = Ime;
+            ime = Ime;
         }
 
         // Metoda za dohvat podataka 'Ime'
         public string DohvatiIme()
         {
-            return Ime;
+            return ime;
         }
 
         // Metoda za postavljanje podataka 'Prezime'
         public void PostaviPrezime(string Prezime)
         {
-            this.Prezime = Prezime;
+            prezime = Prezime;
         }
 
         // Metoda za dohvat podataka 'Prezime'
         public string DohvatiPrezime()
         {
-            return Prezime;
+            return prezime;
         }
 
         // Metoda za postavljanje podataka 'OIB'
         public void PostaviOIB(string OIB)
         {
-            this.OIB = OIB;
+            oib = OIB;
         }
 
         // Metoda za dohvat podataka 'OIB'
         public string DohvatiOIB()
         {
-            return OIB;
+            return oib;
         }
         
         public void ispisiPrezimeIme()
         {
-            Console.WriteLine("{0}, {1}", Prezime, Ime);
+            Console.WriteLine("{0}, {1}", prezime, ime);
         }
     }
 
