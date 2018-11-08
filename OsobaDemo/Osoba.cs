@@ -9,7 +9,7 @@ namespace OsobaDemo
         // Sakrivanje podataka, onemogućava pristup
         private string ime;
         private string prezime;
-        private string oib;
+        private string Oib;
 
         // O Svojstvima (Properties) - Obavezno proučiti !!!
         // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties
@@ -31,12 +31,8 @@ namespace OsobaDemo
         // svojstvo Prezime; operator lambda =>; "Expresion Body Definition"
         // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties#expression-body-definitions
 
-        public string Prezime
-        {
-            get => prezime;
-            set => prezime = value;
-        }
-
+        public string Prezime { get => prezime; set => prezime = value; }
+        
         // Metoda za postavljanje podatka 'Ime'
         public void PostaviIme(string Ime)
         {
@@ -62,16 +58,6 @@ namespace OsobaDemo
         }
 
         // Metoda za postavljanje podataka 'OIB'
-        public void PostaviOIB(string OIB)
-        {
-            oib = OIB;
-        }
-
-        // Metoda za dohvat podataka 'OIB'
-        public string DohvatiOIB()
-        {
-            return oib;
-        }
         
         public void ispisiPrezimeIme()
         {
