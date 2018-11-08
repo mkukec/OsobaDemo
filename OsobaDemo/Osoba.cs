@@ -10,6 +10,7 @@ namespace OsobaDemo
         private string Ime;
         private string Prezime;
         private string OIB;
+        private bool provjera = false;  // Primjer podatka koji nema/netreba javne get/set metode
 
         // Metoda za postavljanje podatka 'Ime'
         public void PostaviIme(string Ime)
