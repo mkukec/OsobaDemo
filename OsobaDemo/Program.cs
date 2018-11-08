@@ -28,13 +28,13 @@ namespace OsobaDemo
             int i;
 
             Osoba o1 = new Osoba();
-            o1.postaviIme("Ana");
-            o1.postaviPrezime("Anić");
+            o1.PostaviIme("Ana");
+            o1.PostaviPrezime("Anić");
             o1.ispisiPrezimeIme();
 
             Osoba s1 = new Osoba();
-            s1.postaviIme("Drago");
-            s1.postaviPrezime("Delač");
+            s1.PostaviIme("Drago");
+            s1.PostaviPrezime("Delač");
 
 
             List<Osoba> osobe = new List<Osoba>();
