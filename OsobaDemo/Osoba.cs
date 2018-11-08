@@ -6,9 +6,10 @@ namespace OsobaDemo
 {
     class Osoba
     {
-        public string Ime;
-        public string Prezime;
-        public string OIB;
+        // Sakrivanje podataka, onemogućava pristup
+        private string Ime;
+        private string Prezime;
+        private string OIB;
         
         public void ispisiPrezimeIme()
         {
