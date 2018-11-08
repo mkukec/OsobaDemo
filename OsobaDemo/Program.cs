@@ -32,7 +32,7 @@ namespace OsobaDemo
             o1.postaviPrezime("Anić");
             o1.ispisiPrezimeIme();
 
-            Osoba s1 = new Student();
+            Osoba s1 = new Osoba();
             s1.postaviIme("Drago");
             s1.postaviPrezime("Delač");
 
