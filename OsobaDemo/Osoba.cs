@@ -11,6 +11,32 @@ namespace OsobaDemo
         private string prezime;
         private string oib;
 
+        // O Svojstvima (Properties) - Obavezno proučiti !!!
+        // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties
+
+        // svojstvo Ime
+        public string Ime
+        {
+            get
+            {
+                return ime;
+            }
+
+            set
+            {
+                ime = value;
+            }
+        }
+
+        // svojstvo Prezime; operator lambda =>; "Expresion Body Definition"
+        // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties#expression-body-definitions
+
+        public string Prezime
+        {
+            get => prezime;
+            set => prezime = value;
+        }
+
         // Metoda za postavljanje podatka 'Ime'
         public void PostaviIme(string Ime)
         {
