@@ -36,6 +36,11 @@ namespace OsobaDemo
             s1.PostaviIme("Drago");
             s1.PostaviPrezime("Delač");
 
+            // Korištenje svojstva za dodjelu vrijednosti
+            Osoba o3 = new Osoba();
+            o3.Ime = "Eva";
+            o3.Prezime = "Erceg";
+
 
             List<Osoba> osobe = new List<Osoba>();
             osobe.Add(o1);
