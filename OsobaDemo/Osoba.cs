@@ -11,6 +11,18 @@ namespace OsobaDemo
         private string prezime;
         private string Oib;
 
+        public Osoba()
+        {
+
+        }
+
+        public Osoba(string ime, string prezime, string Oib)
+        {
+            this.ime = ime;
+            this.prezime = prezime;
+            this.Oib = Oib;
+        }
+
         // O Svojstvima (Properties) - Obavezno proučiti !!!
         // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties
 

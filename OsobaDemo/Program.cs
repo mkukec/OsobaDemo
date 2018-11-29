@@ -41,6 +41,8 @@ namespace OsobaDemo
             o3.Ime = "Eva";
             o3.Prezime = "Erceg";
 
+            Osoba o4 = new Osoba("Filip", "Fotez", "12345678901");
+
 
             List<Osoba> osobe = new List<Osoba>();
             osobe.Add(o1);
