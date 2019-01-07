@@ -14,15 +14,19 @@ namespace OsobaDemo
         // Izraditi razred tako da ...
         // Sadrži konstruktor kojim se postavljaju podaci, 
         // onemogućiti stvaranje objekta bez podataka.
-        /*
+
+        // Ukoliko je Osoba bazni razred kod naslijeđivanja, 
+        // obratiti pažnju na podrzaumijevani konstrutor.
+        // Radi primjera, ovdje je podrazumijevani konstruktor
+        // omogućen, tj. nije u komentaru
+        
         public Osoba()
         {
             // Onemogućavanje stvaranja objekta bez podataka -->
             // izostaviti podrazumijevani konstruktor iz koda 
             //  i izraditi drugi(e) konstruktore
         }
-        */
-
+        
         public Osoba(string ime, string prezime, string Oib)
         {
             this.ime = ime;
