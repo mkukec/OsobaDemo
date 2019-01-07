@@ -11,10 +11,17 @@ namespace OsobaDemo
         private string prezime;
         private string Oib;
 
+        // Izraditi razred tako da ...
+        // Sadrži konstruktor kojim se postavljaju podaci, 
+        // onemogućiti stvaranje objekta bez podataka.
+        /*
         public Osoba()
         {
-
+            // Onemogućavanje stvaranja objekta bez podataka -->
+            // izostaviti podrazumijevani konstruktor iz koda 
+            //  i izraditi drugi(e) konstruktore
         }
+        */
 
         public Osoba(string ime, string prezime, string Oib)
         {

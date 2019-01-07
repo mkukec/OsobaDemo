@@ -27,26 +27,22 @@ namespace OsobaDemo
 
             int i;
 
-            Osoba o1 = new Osoba();
-            o1.PostaviIme("Ana");
-            o1.PostaviPrezime("Anić");
+            Osoba o1 = new Osoba("Ana", "Anić", "123456789012");
             o1.ispisiPrezimeIme();
 
-            Osoba s1 = new Osoba();
-            s1.PostaviIme("Drago");
-            s1.PostaviPrezime("Delač");
+            // Nije moguće stvoriti objekt Osoba bez podataka
+            // Osoba s1 = new Osoba();
+            // s1.PostaviIme("Drago");
+            // s1.PostaviPrezime("Delač");
 
             // Korištenje svojstva za dodjelu vrijednosti
-            Osoba o3 = new Osoba();
-            o3.Ime = "Eva";
-            o3.Prezime = "Erceg";
+            Osoba o3 = new Osoba("Eva", "Erceg", "98765432101");
 
             Osoba o4 = new Osoba("Filip", "Fotez", "12345678901");
 
-
             List<Osoba> osobe = new List<Osoba>();
             osobe.Add(o1);
-            osobe.Add(s1);
+
         }
     }
 }
