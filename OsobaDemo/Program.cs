@@ -34,14 +34,28 @@ namespace OsobaDemo
             s1.Prezime = "Grabar";
             s1.JMBAG = "12121213213";
 
+            /*
             Profesor p1 = new Profesor();
             p1.Ime = "Hrvoje";
             p1.Prezime = "Horvat";
             p1.OznakaRadnogMjesta = "neka_oznaka";
+            */
 
             Student s2 = new Student("Ivan", "Ivanda", "21321312313");
+            Profesor p1 = new Profesor("Hrvoje", "Horvat", "44444444", "Ured br. 1");
 
+            Console.WriteLine();
+            Console.WriteLine("Ospiši oznake: (1)");
+            Console.WriteLine(s2.dohvatiIdentifikator());
+            Console.WriteLine(p1.dohvatiIdentifikator());
 
+            Osoba s3 = new Student("Ivan", "Ivanda", "21321312313", "101010101010");
+            Osoba p2 = new Profesor("Hrvoje", "Horvat", "44444444", "Ured br. 1");
+
+            Console.WriteLine();
+            Console.WriteLine("Ospiši oznake: (2)");
+            Console.WriteLine(s3.dohvatiIdentifikator());
+            Console.WriteLine(p2.dohvatiIdentifikator());
 
         }
     }

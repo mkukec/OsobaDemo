@@ -9,7 +9,7 @@ namespace OsobaDemo
         // Sakrivanje podataka, onemogućava pristup
         private string ime;
         private string prezime;
-        private string Oib;
+        protected string Oib;
 
         // Izraditi razred tako da ...
         // Sadrži konstruktor kojim se postavljaju podaci, 
@@ -33,6 +33,11 @@ namespace OsobaDemo
             this.ime = ime;
             this.prezime = prezime;
             this.Oib = Oib;
+        }
+
+        public virtual string dohvatiIdentifikator()
+        {
+            return "Oib: " + Oib;
         }
 
         // O Svojstvima (Properties) - Obavezno proučiti !!!

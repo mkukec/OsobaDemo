@@ -26,5 +26,10 @@ namespace OsobaDemo
             this.JMBAG = JMBAG;
         }
 
+        public override string dohvatiIdentifikator()
+        {
+            return "Oib:" + Oib +  " JMBAG: " + JMBAG;
+        }
+
     }
 }

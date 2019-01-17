@@ -20,5 +20,10 @@ namespace OsobaDemo
             OznakaRadnogMjesta = oznakaRadnogMjesta;
         }
 
+        public override string dohvatiIdentifikator()
+        {
+            return "Oib: " + Oib + " OznakaRM: " + OznakaRadnogMjesta;
+        }
+
     }
 }
