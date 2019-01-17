@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OsobaDemo
 {
-    class Osoba
+    public class Osoba
     {
         // Sakrivanje podataka, onemogućava pristup
         private string ime;
